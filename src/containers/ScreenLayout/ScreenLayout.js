@@ -9,11 +9,9 @@ class ScreenLayout extends Component {
         return (
             <div className={classes.ScreenLayout}>
                 <Toolbar />
-                <div className={classes.ScreenLayoutGameZoneBattlefield}>
-                    <main>
-                        {this.props.children}
-                    </main>
-                </div>
+                <main>
+                    {this.props.children}
+                </main>
             </div>
         );
     }
