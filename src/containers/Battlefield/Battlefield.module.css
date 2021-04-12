@@ -1,0 +1,18 @@
+.Battlefield {
+    display: flex;
+    flex-flow: row;
+    height: 98vh;
+}
+
+.Battlefield div {
+    color: red;
+    border: 1px solid rgb(189, 116, 7);
+}
+
+.Combat {
+    flex: 9;
+}
+
+.Details {
+    flex: 1;
+}

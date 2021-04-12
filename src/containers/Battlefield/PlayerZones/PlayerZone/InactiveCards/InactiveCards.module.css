@@ -1,0 +1,6 @@
+.InactiveCards {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    flex: 1;
+}

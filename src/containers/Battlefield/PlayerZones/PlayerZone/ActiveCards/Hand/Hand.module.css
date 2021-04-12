@@ -1,0 +1,5 @@
+.Hand {
+    display: flexbox;
+    flex-flow: row;
+    flex: 25;
+}

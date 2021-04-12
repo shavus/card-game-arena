@@ -1,0 +1,13 @@
+.ScreenLayout {
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+}
+
+.ScreenLayout main {
+    position: fixed;
+    margin-top: 2vh;
+    flex: 1;
+    height: 98vh;
+    width: 100%;
+}
