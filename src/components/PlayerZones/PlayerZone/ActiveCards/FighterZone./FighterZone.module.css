@@ -1,4 +1,5 @@
 .FighterZone {
+    text-align: center;
     display: flex;
     flex-flow: row;
     flex: 75;
