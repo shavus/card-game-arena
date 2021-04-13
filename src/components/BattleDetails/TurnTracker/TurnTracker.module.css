@@ -1,3 +1,9 @@
 .TurnTracker {
+    display: flex;
+    flex-flow: column;
     flex: 250;
+}
+
+.TurnCounter {
+    flex: 5;
 }

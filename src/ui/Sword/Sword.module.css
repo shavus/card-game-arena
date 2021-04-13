@@ -1,0 +1,32 @@
+.Sword {
+    width: 75%;
+    height: 75%;
+    position: relative;
+    text-align: initial;
+    margin: 12% 12%;
+    border: initial;
+    border: none !important;
+ }
+ 
+ .Sword:before, .Sword:after {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   background: #111;
+ }
+ 
+ .Sword:before {
+   left: 50%;
+   width: 5%;
+   margin-left: 0%;
+   height: 100%;
+ }
+ 
+ .Sword:after {
+   top: 70%;
+   left: 32%;
+   height: 5%;
+   margin-top: 0%;
+   width: 40%;
+ }
+ 

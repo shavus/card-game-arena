@@ -5,16 +5,27 @@
 }
 
 .Energy {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.5),
             inset 5px 5px 8px rgba(0,0,0,0.5);
 }
 
+.EnergyBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: 300;
+    color: black !important;
+    flex: 1;
+}
+
 .Locked {
     background-color: grey;
+}
+
+.Locked img{
+    height: 50%;
+    width: 50%;
 }
 
 .Spent {

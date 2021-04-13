@@ -9,13 +9,18 @@ import classes from './Battlefield.module.css';
 class Battlefield extends Component {
 
     state = {
-        atkPlayerPhase: true,
-        oppoEnergy: 3,
-        oppoPurchasedEnergy: 1,
         opponentUsername: 'Baddie McBadderson',
-        playerEnergy: 1,
-        playerPurchasedEnergy: 0,
-        turn: 3,
+        battleDetails: {
+            playerTurn: true,       //player is current taking their turn
+            isPlayerAtk: true,      //player is attacker this round
+            oppoEnergy: 3,
+            oppoHealth: 12,
+            oppoPurchasedEnergy: 1,
+            playerEnergy: 1,
+            playerHealth: 18,
+            playerPurchasedEnergy: 0,
+            turn: 3,
+        }
     }
 
     render() {
@@ -23,13 +28,8 @@ class Battlefield extends Component {
             <div className={classes.Battlefield}>
                 <BatleDetailsContext.Provider
                     value={{
-                        atkPlayerPhase: this.state.atkPlayerPhase,
-                        oppoEnergy: this.state.oppoEnergy,
-                        oppoPurchasedEnergy: this.state.oppoPurchasedEnergy,
+                        ...this.state.battleDetails,
                         opponentUsername: this.state.opponentUsername,
-                        playerEnergy: this.state.playerEnergy,
-                        playerPurchasedEnergy: this.state.playerPurchasedEnergy,
-                        turn: this.state.turn,
                     }}
                 >
                     <PlayerZones />

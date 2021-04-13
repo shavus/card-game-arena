@@ -1,0 +1,12 @@
+:root {
+    --shield-border-color: #111;
+}
+  
+.Shield {
+    height: 75%;
+    width: 75%;
+    margin: 12% 12%;
+    border: 10px solid var(--shield-border-color);
+    border-radius: 50% 50% 50% 50% / 9% 9% 99% 99%;
+    border-color: #111 !important;
+}
