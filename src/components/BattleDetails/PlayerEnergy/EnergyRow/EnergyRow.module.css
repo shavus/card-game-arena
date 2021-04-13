@@ -1,0 +1,30 @@
+.EnergyRow {
+    flex: 1;
+    display: flex;
+    flex-flow: row;
+}
+
+.Energy {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5),
+            inset 5px 5px 8px rgba(0,0,0,0.5);
+}
+
+.Locked {
+    background-color: grey;
+}
+
+.Spent {
+    background-color: transparent;
+}
+
+.Total {
+    background-color: gold;
+}
+
+.Available {
+    background-color: skyblue;
+}

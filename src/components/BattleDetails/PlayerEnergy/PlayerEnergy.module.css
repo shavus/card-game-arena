@@ -1,3 +1,6 @@
 .PlayerEnergy {
-    flex: 375;
+    display: flex;
+    flex-flow: column;
+    flex: 350;
+    margin: 2px 2px 2px 2px;
 }

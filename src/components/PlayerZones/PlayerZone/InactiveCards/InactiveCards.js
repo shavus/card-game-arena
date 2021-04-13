@@ -1,4 +1,3 @@
-import playerZone from '../PlayerZone';
 import DiscardCards from './DiscardCards/DiscardCards';
 import DrawCards from './DrawCards/DrawCards';
 
