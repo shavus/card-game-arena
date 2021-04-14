@@ -1,3 +1,6 @@
 .DiscardCards {
+    display: flex;
     flex: 1;
+    -webkit-transform: rotateX(180deg);
+            transform: rotateX(180deg);
 }

@@ -6,16 +6,16 @@ import classes from './InactiveCards.module.css';
 const inactiveCards = (props) => {
     let playerView = (
         <div className={classes.InactiveCards}>
-            <DiscardCards />
-            <DrawCards />
+            <DiscardCards isPlayer={props.isPlayer}/>
+            <DrawCards isPlayer={props.isPlayer} />
         </div>
     );
 
     if (!props.isPlayer) {
         playerView = (
             <div className={classes.InactiveCards}>
-                <DrawCards />
-                <DiscardCards />
+                <DrawCards isPlayer={props.isPlayer} />
+                <DiscardCards isPlayer={props.isPlayer} />
             </div>
         );
     }

@@ -20,12 +20,14 @@
 }
 
 .Locked {
-    background-color: grey;
+    background-image: linear-gradient(to bottom right, grey, silver);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5),
+            inset 5px 5px 8px rgba(0,0,0,0.5);
 }
 
 .Locked img{
-    height: 50%;
-    width: 50%;
+    max-height: 30%;
+    max-width: 30%;
 }
 
 .Spent {
@@ -33,9 +35,12 @@
 }
 
 .Total {
-    background-color: gold;
+    /* background-color: gold; */
+    background-image: linear-gradient(to bottom right, gold, wheat);
 }
 
 .Available {
-    background-color: skyblue;
+    /* background-color: skyblue; */
+    background-image: linear-gradient(to bottom right, blue, skyblue);
+
 }
