@@ -1,7 +1,7 @@
 import classes from './Card.module.css';
 
 const card = (props) => {
-    let atkClasses = [classes.CardDefense];
+    let atkClasses = [classes.CardAttack];
     if (props.card.atkMod > 0)
     {
         atkClasses.push(classes.CardBuffed);
