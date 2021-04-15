@@ -9,12 +9,12 @@ const card = (props) => {
             <div className={classes.CardName}>{props.card.name}</div>
             <div className={classes.CardHeader}>
                 <div className={classes.CardCost}><span>{props.card.cost}</span></div>
-                <div className={classes.CardStatus}>{props.card.status.join(', ')}</div>
+                <div className={classes.CardStatus}>{props.card.status ? props.card.status.join(', ') : null}</div>
                 <div className={classes.CardRenown}><span>{props.card.renown}</span></div>
             </div>
             <div className={classes.CardBody}>{props.card.skills ? props.card.skills.join(', ') : null}</div>
             <div className={classes.CardFooter}>
-                <div className={atkClasses.join(' ')}><span>{props.card.atk}</span></div>
+                <div className={atkClasses.join(' ')}><span>{props.card.atk + props.card.atkMod}</span></div>
                 <div className={defClasses.join(' ')}><span>{props.card.def + props.card.defMod}</span></div>
             </div>
         </div>

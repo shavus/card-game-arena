@@ -29,7 +29,7 @@ class Battlefield extends Component {
             oppoFighter4: null,
             oppoFighter5: null,
             oppoHandSize: 4,
-            playerDrawPile: 42,
+            playerDrawPile: 39,
             playerFighter1: null,
             playerFighter2: {
                 atk: 6,

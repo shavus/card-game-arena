@@ -1,3 +1,10 @@
 .HomeScreen {
-    
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.HomeScreenColumn {
+    flex: 1;
+    flex-grow: 1;
 }

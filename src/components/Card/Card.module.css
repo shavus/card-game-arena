@@ -6,6 +6,11 @@
     margin: 10px;
 }
 
+.Card div {
+    color: black;
+    border: 1px solid rgb(189, 116, 7);
+}
+
 .Card span {
     flex: 5;
     font-size: xx-large;

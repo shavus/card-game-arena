@@ -4,9 +4,14 @@
     background-color:honeydew;
     box-shadow: black;
     height: 15%;
-    width: 35%;
+    width: 75%;
     margin: 20px;
     box-shadow: 3px 3px 5px #333;
+}
+
+.Active {
+    background-color: skyblue;
+    box-shadow: 10px 10px 5px salmon;
 }
 
 .NavTile:hover {
