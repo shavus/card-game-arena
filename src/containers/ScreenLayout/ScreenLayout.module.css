@@ -6,7 +6,7 @@
 
 .ScreenLayout main {
     position: fixed;
-    margin-top: 2vh;
+    margin-top: 4vh;
     flex: 1;
     height: 98vh;
     width: 100%;

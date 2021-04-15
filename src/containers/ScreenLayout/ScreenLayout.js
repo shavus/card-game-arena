@@ -1,4 +1,4 @@
-import { Component } from "react";
+import { Component } from 'react';
 
 import Toolbar from '../../components/Toolbar/Toolbar';
 

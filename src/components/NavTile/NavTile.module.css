@@ -1,0 +1,43 @@
+.NavTile {
+    display: flex;
+    border: 2px solid black;
+    background-color:honeydew;
+    box-shadow: black;
+    height: 15%;
+    width: 35%;
+    margin: 20px;
+    box-shadow: 3px 3px 5px #333;
+}
+
+.NavTile:hover {
+    cursor: pointer;
+}
+
+.NavTileSection {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.NavTile h2 {
+    text-align: left;
+    align-content: center;
+    justify-content: center;
+    color: orangered;
+    font-size: xxx-large;
+}
+
+.NavTile p {
+    text-align: left;
+    justify-content: center;
+    font-size: large;
+}
+
+.NavTile img {
+    border: 1px ridge black;
+    box-shadow: 2px 2px 5px #333;
+    margin: auto;
+    max-height: 90%;
+    max-width: 80%;
+}

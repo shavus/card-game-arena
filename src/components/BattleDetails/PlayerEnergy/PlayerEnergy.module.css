@@ -2,5 +2,12 @@
     display: flex;
     flex-flow: column;
     flex: 350;
-    margin: 2px 0px;
+    margin: 2px 0 0 0;
+}
+
+.PlayerEnergy.Enemy {
+    display: flex;
+    flex-flow: column;
+    flex: 350;
+    margin: 0 0 2px 0;
 }
